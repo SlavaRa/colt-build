@@ -1,4 +1,4 @@
-package codeOrchestra_tmp.colt.updater;
+package codeOrchestra.colt.updater;
 import java.io.*;
 import java.lang.reflect.Method;
 import java.net.URL;
