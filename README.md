@@ -3,9 +3,9 @@
 Meta-repository for COLT modules
 
 # Requirements for build
-- gradle 2.7 or greater (https://gradle.org/)
-- jdk 1.8.0_60 or greater (http://www.oracle.com/technetwork/java/javase/overview/index.html)
-- groovy 2.4.4 or greater (http://www.groovy-lang.org/download.html)
+- gradle 2.11 or greater (https://gradle.org/)
+- jdk 1.8.0_74 or greater (http://www.oracle.com/technetwork/java/javase/overview/index.html)
+- groovy 2.4.6 or greater (http://www.groovy-lang.org/download.html)
 
 # How to build COLT?
 - install 'Inno Setup' from http://www.jrsoftware.org/isdl.php#stable for Windows
