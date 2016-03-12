@@ -157,7 +157,7 @@ javafx {
     embedLauncher = true
     vendor = 'CodeOrchestra'
     description = 'COLT is a small program to test and build mobile, web and desktop-based applications in real time.'
-    copyright = '� 2012-2015. All rights reserved'
+    copyright = '© 2012-2016. All rights reserved'
     signingMode 'release'
     codebase = 'https://github.com/code-orchestra'
     installSystemWide = false
