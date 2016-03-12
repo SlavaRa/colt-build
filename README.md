@@ -33,4 +33,4 @@ Meta-repository for COLT modules
 # How to build COLT from IDEA
 - Run > Edit Configurations... Press Alt+Insert
 ![Add new configuration](http://service.crazypanda.ru/v/clip2net/c/F/UlOaKWSu82.png)
-![Setup project](http://service.crazypanda.ru/v/clip2net/0/w/xpfg93EKf0.png)
+![Setup project](http://service.crazypanda.ru/v/clip2net/T/1/UOf9CeJemA.png)
