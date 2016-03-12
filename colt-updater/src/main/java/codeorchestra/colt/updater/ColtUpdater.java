@@ -1,4 +1,4 @@
-package codeOrchestra.colt.updater;
+package codeorchestra.colt.updater;
 import java.io.*;
 import java.lang.reflect.Method;
 import java.net.URL;
@@ -19,9 +19,9 @@ class ColtUpdater {
     public static void main(String[] args) {
         File baseDir = getApplicationBaseDir();
         File jarDir;
-        if (SystemInfo.isMac) {
+        if (codeorchestra.colt.updater.SystemInfo.isMac) {
             jarDir = new File(baseDir, "Contents/Java");
-        } else if (SystemInfo.isWindows){
+        } else if (codeorchestra.colt.updater.SystemInfo.isWindows){
             jarDir = new File(baseDir, "lib");
         } else {
             jarDir = new File(baseDir, "app");
