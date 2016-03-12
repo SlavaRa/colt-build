@@ -79,6 +79,9 @@ project('colt-core') {
     }
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.11'
+}
 task cloneModules << {
     def dir = project(":colt-as").projectDir
     if(!dir.exists() || !file("$dir.path/.git").exists()) {
@@ -103,7 +106,6 @@ task cloneModules << {
         }
     }
 }
-
 task preBuild(dependsOn: 'cloneModules', type: Copy) {
     def coltas = project(":colt-as").projectDir.path
     def out = "$projectDir.path/src/deploy/resources"
@@ -164,7 +166,7 @@ javafx {
     menu = true
     shortcut = true
     icons {
-        shortcut = ['colt-32.png', 'colt-64.png'/*, 'colt-128.png', 'colt-256.png', 'colt-512.png'*/]
+        shortcut = ['colt-32.png', 'colt-64.png']
         volume = 'colt-64.png'
         setup = 'colt-64.png'
     }
